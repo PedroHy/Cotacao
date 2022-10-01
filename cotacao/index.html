@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotações</title>
+
+    <link rel="shortcut icon" href="assets/bitcoin.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="container">
+        <div id="input-container">
+            <span>Valor em reais(R$)</span>
+            <input type="text" id="reais">
+        </div>
+        <div id="coins-container">
+            <div id="bitcoin" class="button">
+                <img src="assets/bitcoin.png" alt="bitcoin">
+                <span>Bitcoin</span>
+            </div>
+            <div id="dollar" class="button">
+                <img src="assets/dollar.png" alt="dollar">
+                <span>Dollar</span>
+            </div>
+            <div id="euro" class="button">
+                <img src="assets/euro.png" alt="euro">
+                <span>Euro</span>
+            </div>
+        </div>
+        <div id="result-container">
+            <span id="result">R$00,00</span>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
